@@ -1,15 +1,605 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-        "book_name": "Harry Potter and the Philosopher's Stone",
-        "author": "J. K. Rowling",
-        "genre": "fiction",
-        "edition": "2021",
-        "publisher": "Bloomsbury",
-        "cost": 1299,
-        "borrowed": false
-      }
-    ]
+    "mensdata":[
+      
+        {
+         "id": 0,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/819E5suv0pL._AC_UL320_.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1499,
+          "Rating": "3.8"
+        },
+        {
+         "id": 1,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/41eDocYv8WL._AC_UL320_.jpg",
+          "Description": "Men's Regular Fit T-Shirt (Pack of 4)",
+          "Price": 2999,
+          "Rating": "4.8"
+        },
+        {
+         "id": 2,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71BShor7HeL._AC_UL320_.jpg",
+          "Description": "Men's Regular T-Shirt",
+          "Price": 1395,
+          "Rating": "4.9"
+        },
+        {
+         "id": 3,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/415AoOmIZeL._AC_UL320_.jpg",
+          "Description": "Men's Regular Fit T-Shirt (Pack of 2)",
+          "Price": 1499,
+          "Rating": "4.4"
+        },
+        {
+         "id": 4,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "Full Sleeve",
+          "Image": "https://m.media-amazon.com/images/I/61VokogzT-L._AC_UL320_.jpg",
+          "Description": "Men's Printed Full Sleeve Slim Fit Cotton T-Shirt",
+          "Price": 1099,
+          "Rating": "4.9"
+        },
+        {
+         "id": 5,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/61K9u5gS61L._AC_UL320_.jpg",
+          "Description": "Double Collar Men's Round Neck T-Shirt",
+          "Price": 1199,
+          "Rating": "4.5"
+        },
+        {
+         "id": 6,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "Hoodie",
+          "Image": "https://m.media-amazon.com/images/I/71R5FDYDMKL._AC_UL320_.jpg",
+          "Description": "Men's Stylish Hooded Graphic Printed T-Shirt (White)",
+          "Price": 1999,
+          "Rating": "4.4"
+        },
+        {
+         "id": 7,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "Full Sleeve",
+          "Image": "https://m.media-amazon.com/images/I/41zvKQWEeHL._AC_UL320_.jpg",
+          "Description": "Men's Cotton Printed T-Shirt",
+          "Price": 999,
+          "Rating": "4.2"
+        },
+        {
+         "id": 8,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71Zq6TAy7lL._AC_UL320_.jpg",
+          "Description": "Men's Regular T-Shirt (INK-SS22-TSH-16_Radiant YEL,Peace M)",
+          "Price": 2499,
+          "Rating": "4.8"
+        },
+        {
+         "id": 9,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/51AZ6dsImML._AC_UL320_.jpg",
+          "Description": "Oversize Loose Fit Round Neck Half Sleeve T-Shirt for Men (Pack of 2)",
+          "Price": 2399,
+          "Rating": "4.5"
+        },
+        {
+         "id": 10,
+         "Brand": "Puma",
+          "Title": "Puma",
+          "Catogory": "Sport Wear",
+          "Image": "https://m.media-amazon.com/images/I/713jGMXHdCL._AC_UL320_.jpg",
+          "Description": "Men's Solid Regular Fit Polo",
+          "Price": 1599,
+          "Rating": "4.3"
+        },
+        {
+         "id": 11,
+         "Brand": "vPeter England",
+          "Title": "Peter England",
+          "Catogory": "Sport Wear",
+          "Image": "https://m.media-amazon.com/images/I/61zT8raEyFL._AC_UL320_.jpg",
+          "Description": "Men's Cotton Sleeveless T-Shirt",
+          "Price": 999,
+          "Rating": "4.1"
+        },
+        {
+         "id": 12,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/81LKNMLL8uL._AC_UL320_.jpg",
+          "Description": "Men's Regular Soild Polo T-Shirt",
+          "Price": 1199,
+          "Rating": "4.7"
+        },
+        {
+         "id":13 ,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "Sport Wear",
+          "Image": "https://m.media-amazon.com/images/I/61cW-sGQ5CL._AC_UL320_.jpg",
+          "Description": "Men's Cotton Colorblocked Sleeveless T-Shirt",
+          "Price": 999,
+          "Rating": "4.9"
+        },
+        {
+         "id": 14,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/711Ku5lk5wL._AC_UL320_.jpg",
+          "Description": "Men's Regular Fit T-Shirt (Pack of 3)",
+          "Price": 2397,
+          "Rating": "4.4"
+        },
+        {
+         "id": 15,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "Sport Wear",
+          "Image": "https://m.media-amazon.com/images/I/61lZbuNBtWL.AC_UL320.jpg",
+          "Description": "Men's Cotton Colorblocked Sleeveless T-Shirt",
+          "Price": 999,
+          "Rating": "4.9"
+        },
+        {
+         "id": 16,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/611T2FNdHeL.AC_UL320.jpg",
+          "Description": "Men T-Shirt",
+          "Price": 1599,
+          "Rating": "4.7"
+        },
+        {
+         "id": 17,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "Sport Wear",
+          "Image": "https://m.media-amazon.com/images/I/61-iSworjoL.AC_UL320.jpg",
+          "Description": "Men's Cotton Colorblocked Sleeveless T-Shirt",
+          "Price": 999,
+          "Rating": "4.5"
+        },
+        {
+         "id": 18,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "Sport Wear",
+          "Image": "https://m.media-amazon.com/images/I/61YMk1463IL.AC_UL320.jpg",
+          "Description": "Men's Cotton Colorblocked Sleeveless T-Shirt",
+          "Price": 999,
+          "Rating": "4.3"
+        },
+        {
+         "id": 19,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "Sport Wear",
+          "Image": "https://m.media-amazon.com/images/I/51yFL8W981L.AC_UL320.jpg",
+          "Description": "Men's Cotton Colorblocked Sleeveless T-Shirt",
+          "Price": 999,
+          "Rating": "4.1"
+        },
+        {
+         "id": 20,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/81vtpAJ-2QL.AC_UL320.jpg",
+          "Description": "Men's Regular T-Shirt",
+          "Price": 999,
+          "Rating": "4.9"
+        },
+        {
+         "id": 21,
+         "Brand": "Peter England",
+          "Title": "Peter England",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/91Yk1Nyz1yL.AC_UL320.jpg",
+          "Description": "Men T-Shirt",
+          "Price": 2499,
+          "Rating": "4.2"
+        },
+        {
+         "id": 22,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Image": "https://m.media-amazon.com/images/I/71HNpgTmY3L.AC_UL320.jpg",
+          "Description": "Men's Solid Regular T-Shirt (AW19TEE44_Sunflower 2XL)",
+          "Price": 999,
+          "Rating": "4.5"
+        },
+        {
+         "id": 23,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/81pFRVqjCXL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1499,
+          "Rating": "4.7"
+        },
+        {
+         "id": 24,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Catogory": "Sport Wear",
+          "Image": "https://m.media-amazon.com/images/I/81dOuNcP6wL.AC_UL320.jpg",
+          "Description": "Men's Colorblocked Sleeveless T-Shirt",
+          "Price": 999,
+          "Rating": "4."
+        },
+        {
+         "id": 25,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/61EQB86OgkL.AC_UL320.jpg",
+          "Description": "Men T-Shirt",
+          "Price": 1399,
+          "Rating": "4."
+        },
+        {
+         "id": 26,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/A15swXc7bbL.AC_UL320.jpg",
+          "Description": "Men's Slim Fit Polo T-Shirt",
+          "Price": 999,
+          "Rating": "4.5"
+        },
+        {
+         "id": 27,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71P2mIAoHKL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1799,
+          "Rating": "4.5"
+        },
+        {
+         "id": 28,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/41LnG1IfR3L.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1399,
+          "Rating": "4.5"
+        },
+        {
+         "id": 29,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/7135qnAOyFL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1799,
+          "Rating": "4.3"
+        },
+        {
+         "id": 30,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/61z-7UOdMJL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1799,
+          "Rating": "4.4"
+        },
+        {
+         "id": 31,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71TjkNhd3rL.AC_UL320.jpg",
+          "Description": "Men's Relaxed Fit T-Shirt",
+          "Price": 1799,
+          "Rating": "4.6"
+        },
+        {
+         "id": 32,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Full Sleeve",
+          "Image": "https://m.media-amazon.com/images/I/71w7EvgJ6OL.AC_UL320.jpg",
+          "Description": "Men T-Shirt",
+          "Price": 1599,
+          "Rating": "4.5"
+        },
+        {
+         "id": 33,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71Iw7lzeBxL.AC_UL320.jpg",
+          "Description": "Men's Slim Fit Tees",
+          "Price": 1399,
+          "Rating": "4.7"
+        },
+        {
+         "id": 34,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71j3FC4DdgL.AC_UL320.jpg",
+          "Description": "Men T-Shirt",
+          "Price": 1399,
+          "Rating": "4.9"
+        },
+        {
+         "id": 35,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/51xuzPodJjL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 2399,
+          "Rating": "4.5"
+        },
+        {
+         "id": 36,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Full Sleeve",
+          "Image": "https://m.media-amazon.com/images/I/71E9CEUO97L.AC_UL320.jpg",
+          "Description": "Men T-Shirt",
+          "Price": 1599,
+          "Rating": "4.3"
+        },
+        {
+         "id": 37,
+         "Brand": "Raymond",
+          "Title": "Raymond",
+          "Catogory": "Hoodie",
+          "Image": "https://m.media-amazon.com/images/I/71NgMHevi7L.AC_UL320.jpg",
+          "Description": "Men Jeans",
+          "Price": 1499,
+          "Rating": "4.2"
+        },
+        {
+         "id": 38,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/711H5r47uwL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1799,
+          "Rating": "4.5"
+        },
+        {
+         "id": 39,
+         "Brand": "Adidas",
+          "Title": "Adidas",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71gXPVKLp3S.AC_UL320.jpg",
+          "Description": "Pepe Mens Round Neck Printed T-Shirt",
+          "Price": 1799,
+          "Rating": "4.7"
+        },
+        {
+         "id": 40,
+         "Brand": "Adidas",
+          "Title": "Adidas",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/61Gtg8-jeuL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1999,
+          "Rating": "4.4"
+        },
+        {
+         "id": 41,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71ZP0jKuSEL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1599,
+          "Rating": "4.3"
+        },
+        {
+         "id": 42,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71mHXjE25WL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1599,
+          "Rating": "4.9"
+        },
+        {
+         "id": 43,
+         "Brand": "Adidas",
+          "Title": "Adidas",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/513GHVyfqVL.AC_UL320.jpg",
+          "Description": "Pepe Solid Cotton Regular Fit Mens T-Shirt (S22MOTEROSSIPYE-P)",
+          "Price": 1799,
+          "Rating": "4.6"
+        },
+        {
+         "id": 44,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/81Vp3Z-YdhL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1199,
+          "Rating": "4.0"
+        },
+        {
+         "id": 45,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/61Q4aUnsBgL.AC_UL320.jpg",
+          "Description": "Men T-Shirt",
+          "Price": 2099,
+          "Rating": "4.3"
+        },
+        {
+         "id": 46,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71WSI+qGFAL.AC_UL320.jpg",
+          "Description": "Men T-Shirt",
+          "Price": 1399,
+          "Rating": "4.1"
+        },
+        {
+         "id": 47,
+         "Brand": "Adidas",
+          "Title": "Adidas",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/81cXwdiBGpL.AC_UL320.jpg",
+          "Description": "Men's Regular fit T-Shirt",
+          "Price": 2299,
+          "Rating": "4.9"
+        },
+        {
+         "id": 48,
+         "Brand": "Adidas",
+          "Title": "Adidas",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71a0WVvc7tL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1899,
+          "Rating": "4.1"
+        },
+        {
+         "id": 49,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71JAcuCt50L.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 2099,
+          "Rating": "4"
+        },
+        {
+         "id": 50,
+         "Brand": "Adidas",
+          "Title": "Adidas",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/818zRYZjNqL.AC_UL320.jpg",
+          "Description": "Men's Slim T-Shirt",
+          "Price": 1099,
+          "Rating": "4.5"
+        },
+        {
+         "id": 51,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/716wrt7nCxL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1799,
+          "Rating": "4.8"
+        },
+        {
+         "id": 52,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71jZ4hNno9L.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 2399,
+          "Rating": "4.5"
+        },
+        {
+         "id": 53,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/71Q4Z5BExsL.AC_UL320.jpg",
+          "Description": "Men's Relaxed Fit T-Shirt",
+          "Price": 2799,
+          "Rating": "3.9"
+        },
+        {
+         "id": 54,
+         "Brand": "Reebok",
+          "Title": "Reebok",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/7188jP+7fcL.AC_UL320.jpg",
+          "Description": "Men's Fitted T-Shirts",
+          "Price": 1299,
+          "Rating": "4.5"
+        },
+        {
+         "id": 55,
+         "Brand": "Levi's",
+          "Title": "Levi's",
+          "Catogory": "Full Sleeve",
+          "Image": "https://m.media-amazon.com/images/I/71MHrU+3m+L.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1599,
+          "Rating": "4.6"
+        },
+        {
+         "id": 56,
+         "Brand": "Reebok",
+          "Title": "Reebok",
+          "Catogory": "Full Sleeve",
+          "Image": "https://m.media-amazon.com/images/I/51pFcOGyc6L.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt (Pack of 3)",
+          "Price": 1999,
+          "Rating": "4.7"
+        },
+        {
+         "id": 57,
+         "Brand": "Reebok",
+          "Title": "Reebok",
+          "Catogory": "Printed T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/61pzTlkaY5L.AC_UL320.jpg",
+          "Description": "T-Shirt for Men & Boys, Cotton Half Sleeve Printed Tshirts for Men, Round Neck Tshirt",
+          "Price": 1199,
+          "Rating": "4.8"
+        },
+        {
+         "id": 58,
+         "Brand": "Reebok",
+          "Title": "Reebok",
+          "Catogory": "Full Sleeve",
+          "Image": "https://m.media-amazon.com/images/I/61Y3mModfKL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit Full Sleeve Cotton T-Shirt",
+          "Price": 899,
+          "Rating": "4.9"
+        },
+        {
+         "id": 59,
+         "Brand": "Reebok",
+          "Title": "Reebok",
+          "Catogory": "T-Shirt",
+          "Image": "https://m.media-amazon.com/images/I/61l0AAbp9wL.AC_UL320.jpg",
+          "Description": "Men's Regular Fit T-Shirt",
+          "Price": 1999,
+          "Rating":"3.6"
+       }
+       ]
+    
   }
